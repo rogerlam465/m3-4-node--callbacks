@@ -3,7 +3,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
-const { handleHomePage, handleFormData, handle404 } = require('./handlers');
+const { handleHomePage, handleFormData, handle404, hello } = require('./handlers');
 
 const PORT = process.env.PORT || 8000;
 
