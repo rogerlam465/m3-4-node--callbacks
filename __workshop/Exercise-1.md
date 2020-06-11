@@ -101,7 +101,10 @@ Our hypothesis is that having different handlers for different data types is int
 Take a look at `homepage.ejs` and `todoInput.ejs`. What is happening in there? Explain line-by-line...
 
 ```
-// Answer here
+Include the header ejs
+Include the input box from partials/todoInput
+Iterate through each item in the items array to generate an li
+Include the footer ejs
 
 ```
 
