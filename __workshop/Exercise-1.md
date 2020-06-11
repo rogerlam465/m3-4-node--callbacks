@@ -1,8 +1,8 @@
 # Questions
 
-**With a partner**, answer these questions as completely as possible. Feel free to look at past lecture notes, the web, anything. 
+**With a partner**, answer these questions as completely as possible. Feel free to look at past lecture notes, the web, anything.
 
-Take the time to explain it to each other. 
+Take the time to explain it to each other.
 
 The power of this exercise is in the act of _formulating_ and _explaining_ the concepts to someone else (your teammate).
 
@@ -14,7 +14,11 @@ Only move on to the next question when you have enough detail that you would be 
 
 ```
 // Answer here
+get /
+  render the html
+  should have a form
 
+  should have list of items
 ```
 
 ## Two - `server.js`
@@ -32,7 +36,7 @@ _The NPM site might be a good place to start. Feel free to provide links as rele
 
 ## Three - `server.js`
 
-Look at lines `23` and `24`. Explain the methods used. How are they different? What are the usecases for each?
+Look at lines `26` and `24`. Explain the methods used. How are they different? What are the usecases for each?
 
 ```
 // Answer here
@@ -64,7 +68,7 @@ Why is there `redirect` on line `11`;
 ```
 // Answer here
 
-``` 
+```
 
 ## Seven - `handlers.js`
 
@@ -83,28 +87,3 @@ Take a look at `homepage.ejs` and `todoInput.ejs`. What is happening in there? E
 // Answer here
 
 ```
-
-## Nine - `styles.scss`
-
-What are lines `2` to `7` for this file? Where are these values being used? Take a look at `_homepage.scss` as well? What do you notice?
-
-```
-// Answer here
-
-```
-
-## Ten - `_homepage.scss`
-
-Line `16`. See if by searching the Sass documentation, you can determine what _exactly_ is going on here. That `#{}` notation very specific to this use-case. Why?
-
-```
-// Answer here
-
-```
-
-
-
-
-
-
-
