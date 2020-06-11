@@ -1,8 +1,8 @@
 # Questions
 
-**With a partner**, answer these questions as completely as possible. Feel free to look at past lecture notes, the web, anything. 
+**With a partner**, answer these questions as completely as possible. Feel free to look at past lecture notes, the web, anything.
 
-Take the time to explain it to each other. 
+Take the time to explain it to each other.
 
 The power of this exercise is in the act of _formulating_ and _explaining_ the concepts to someone else (your teammate).
 
@@ -23,6 +23,7 @@ JS Pseudo-code
 - Store form data in array
 - refresh page interating through array to populate <li>s
 
+  should have list of items
 ```
 
 ## Two - `server.js`
@@ -46,7 +47,7 @@ Line 8 in handlers.js
 
 ## Three - `server.js`
 
-Look at lines `23` and `24`. Explain the methods used. How are they different? What are the usecases for each?
+Look at lines `26` and `24`. Explain the methods used. How are they different? What are the usecases for each?
 
 ```
 
@@ -85,7 +86,7 @@ Why is there `redirect` on line `11`;
 
 Without the redirect, the server has no way to push the user back towards the homepage; the logic would break.
 
-``` 
+```
 
 ## Seven - `handlers.js`
 
@@ -107,28 +108,3 @@ Iterate through each item in the items array to generate an li
 Include the footer ejs
 
 ```
-
-## Nine - `styles.scss`
-
-What are lines `2` to `7` for this file? Where are these values being used? Take a look at `_homepage.scss` as well? What do you notice?
-
-```
-// Answer here
-
-```
-
-## Ten - `_homepage.scss`
-
-Line `16`. See if by searching the Sass documentation, you can determine what _exactly_ is going on here. That `#{}` notation very specific to this use-case. Why?
-
-```
-// Answer here
-
-```
-
-
-
-
-
-
-
